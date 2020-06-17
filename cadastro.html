@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Cadastro - Health Track</title>
+    <script src="https://kit.fontawesome.com/14a9593a2b.js" crossorigin="anonymous"></script>
+
+    <link href="bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="cadastro.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-register border border-light p-5" action="#!">
+        <div class="header">
+            <img class="img" src="images/header2.jpg"> 
+              <h1>Health Track</h1>
+        </div>
+        <p><b>Cadastro</p>
+        <div class="form-row mb-4">
+            <div class="col">
+                <input type="text" id="name" class="form-control" placeholder="Primeiro nome">
+            </div>
+            <div class="col">
+                <input type="text" id="name" class="form-control" placeholder="Último nome">
+            </div>
+        </div>
+
+        <input type="text" id="date" class="form-control" placeholder="Data de nascimento"><br> 
+        <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
+        <h1>Sexo: </h1>
+        <select class="form-control" id="sexo">
+            <option>-</option>
+            <option>Feminino</option>
+            <option>Masculino</option>
+          </select>
+          <br>
+        <input type="password" id="senha" class="form-control" placeholder="Nova senha">
+        <input type="password" id="repetirsenha" class="form-control" placeholder="Repetir senha"><br>
+    
+        <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="location.href='dashboard.html'"">Cadastrar</button>
+    
+        <!-- Terms of service -->
+    
+        <p>By clicking
+    
+            <em>Sign up</em> you agree to our
+    
+            <a href="" target="_blank">terms of service</a>
+    
+    </form>
+</body>
+
+</html>

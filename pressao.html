@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Pressão Arterial - Health Track</title>
+    <script src="https://kit.fontawesome.com/14a9593a2b.js" crossorigin="anonymous"></script>
+
+    <link href="bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-4.5.0-dist/css/bootstrap-social.css" rel="stylesheet">
+    <link href="pressao.css" rel="stylesheet">
+  </head>
+  
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <img class="img" src="images/header2.jpg">
+      <a class="navbar-brand" href="#">Health Track</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample09">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#" onclick="location.href='peso.html'">Lista de pesos</a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link" href="#" onclick="location.href='atividades.html'">Lista de atividades</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#" onclick="location.href='pressao.html'">Lista de pressão</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#" onclick="location.href='alimentação.html'">Lista de Alimentos</a>
+           </li>
+       </ul>
+    </nav>
+    <a href="#" class="mx-3" role="button" onclick="location.href='dashboard.html'""><i class="fas fa-arrow-circle-left"></i></a>
+    <body class="text-center">
+        <form class="form-signin border border-light p-5">
+              <div class="text-center">
+                <p><b>Registre sua pressão arterial</b></p>
+              </div>      
+        
+            <input type="text" id="inputDate" class="form-control" placeholder="dd/mm/aaaa" required autofocus>
+            <input type="text" id="inputPressao" class="form-control" placeholder="Informe sua pressão (mmHg)" required>
+          <br>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Salvar</button> 
+        </form>
+
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Data</th>
+                  <th scope="col">Pressão</th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">10/05/2020</th>
+                  <td>120/80mmHg</td>
+                  <td><b>Normal</b></td>
+                  <td><a href="#" class="mx-2" role="button"><i class="far fa-edit"></i></a> <a href="#" class="mx-2" role="button"><i class="far fa-trash-alt"></i></a></td>
+        
+                </tr>
+                <tr>
+                    <th scope="row">09/05/2020</th>
+                    <td>120/85mmHg</td>
+                    <td><b>Normal</b></td>
+                    <td><a href="#" class="mx-2" role="button"><i class="far fa-edit"></i></a> <a href="#" class="mx-2" role="button"><i class="far fa-trash-alt"></i></a></td>
+                
+                  </tr>
+                  <tr>
+                    <th scope="row">04/05/2020</th>
+                    <td>140/85mmHg</td>
+                    <td><p><b>Hipertensão</b></p></td>
+                    <td><a href="#" class="mx-2" role="button"><i class="far fa-edit"></i></a> <a href="#" class="mx-2" role="button"><i class="far fa-trash-alt"></i></a></td>
+                   
+                  </tr>
+                </tbody>
+            </table>
+      </body>

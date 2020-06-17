@@ -1,0 +1,66 @@
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(5, 29, 71);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(5, 29, 71);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #a83277;
+    border-color: #a83277;
+    align-items: center;
+  }
+
+  .btn.btn-lg.btn-primary.btn-block:hover {
+    background-color: #a83277;
+  }
+
+  .form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto; 
+  }
+
+  .form-signin .form-control {
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: whitesmoke;
+  }
+
+  .text-center p {
+    color: rgb(5, 29, 71)
+   }
+
+   .mx-3 {
+    color: rgb(5, 29, 71);
+    font-size: x-large;
+  }
+  
+  .mx-2 {
+    color: rgba(5, 29, 71, 0.418);
+    font-size: small;
+  }
+
+   thead {
+    background-color: thistle;
+  }
+
+  .table p {
+      color: red;
+  }

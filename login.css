@@ -1,0 +1,77 @@
+p {
+  text-align: left;
+  color: rgb(64, 57, 95);
+}
+
+body {
+  background-image: url("images/background.jpeg"); 
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+ height: 100px;
+ width: 250px;
+}
+
+.header h1 {
+  position: relative;
+  font-size: 25px;
+  top: 18px;
+  left: 10px;
+  color: rgb(64, 57, 95);
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header img {
+  position: relative;
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+.redes-sociais h1 {
+  font-size: small;
+}
+
+.mx-2 {
+  font-size: x-large;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+  color: rgb(116, 110, 110);
+  text-align: left;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+  font-size: 3.5rem;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #a83277;
+  border-color: #a83277;
+}
+
+.btn.btn-lg.btn-primary.btn-block:hover {
+  background-color: #a83277;
+}

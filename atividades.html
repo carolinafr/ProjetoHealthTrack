@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Atividades - Health Track</title>
+    <link href="bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14a9593a2b.js" crossorigin="anonymous"></script>
+  
+    
+      <link href="atividades.css" rel="stylesheet">
+    </head>
+    <body>
+
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <img class="img" src="images/header2.jpg">
+          <a class="navbar-brand" href="#">Health Track</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="dashboard.html">Home <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#" onclick="location.href='peso.html'">Lista de pesos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#" onclick="location.href='atividades.html'">Lista de atividades</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#" onclick="location.href='pressao.html'">Lista de pressão</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#" onclick="location.href='alimentação.html'">Lista de Alimentos</a>
+               </li>
+           </ul>
+        </nav>
+            <a href="#" class="mx-3" role="button" onclick="location.href='dashboard.html'""><i class="fas fa-arrow-circle-left"></i></a>
+            <body class="text-center">
+                <form class="form-signin border border-light p-5">
+                      <div class="text-center">
+                        <p><b>Cadastre sua atividade</b></p>
+                      </div>
+
+            <input type="text" id="inputDate" class="form-control" placeholder="dd/mm/aaaa" required autofocus>
+            <input type="text" id="inputAtividade" class="form-control" placeholder="Atividade" required>
+            <input type="text" id="inputTempo" class="form-control" placeholder="Tempo da atividade">
+            <input type="number" id="inputCaloria" class="form-control" placeholder="Calorias gastas (kcal)">
+              
+          <br>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Salvar</button> 
+        </form>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Data</th>
+                <th scope="col">Atividade</th>
+                <th scope="col">Tempo</th>
+                <th scope="col">Calorias gastas(Kcal)</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">10/05/2020</th>
+                    <td>Bicicleta</td>
+                    <td>30min</td>
+                    <td>200 kcal</td>
+                    <td><a href="#" class="mx-2" role="button"><i class="far fa-edit"></i></a> <a href="#" class="mx-2" role="button"><i class="far fa-trash-alt"></i></a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">09/05/2020</th>
+                    <td>Musculação</td>
+                    <td>45min</td>
+                    <td>300 kcal</td>
+                    <td><a href="#" class="mx-2" role="button"><i class="far fa-edit"></i></a> <a href="#" class="mx-2" role="button"><i class="far fa-trash-alt"></i></a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">04/05/2020</th>
+                    <td>Corrida</td>
+                    <td>30min</td>
+                    <td>270 kcal</td>
+                    <td><a href="#" class="mx-2" role="button"><i class="far fa-edit"></i></a> <a href="#" class="mx-2" role="button"><i class="far fa-trash-alt"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+        </body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="bootstrap-4.5.0-dist/js/bootstrap.bundle.js"></script>
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página Inicial - Health Track</title>
+    <link href="bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="dashboard.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14a9593a2b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <body class="text-center"> 
+            <div class="container">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <img class="img" src="images/header2.jpg">
+                <a class="navbar-brand" href="#">Health Track</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample09">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                       <a class="nav-link" href="dashboard.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="location.href='peso.html'">Perfil</a>
+                      </li>
+                      <li class="nav-item">
+                         <a class="nav-link" href="#" onclick="location.href='atividades.html'">Plano</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="location.href='pressao.html'">Comunidade</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="location.href='alimentação.html'">Esporte</a>
+                      </li>
+                  </ul>
+                </div>      
+              </nav>
+            </div>
+
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+            <img class="img-perfil" src="images/perfil.PNG">
+          <h1 class="display-3">Bem vinda, Carolina!</h1>
+         <div class="d4"><p>Acompanhe abaixo seus últimos registros.</p></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2><img class="img-icon" src="images/pesoicon.jpg" width="40" height="40"> Peso</h2>
+            <div class="date"><p>10 de maio</p></div>
+            <p>53.7Kg</p>
+            <p>IMC: 19.72</p>
+            <p><b>Peso Normal</b></p>
+            <p><a class="btn btn-secondary" href="#" role="button" onclick="location.href='peso.html'"">Registrar peso e altura »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2><img class="img-icon" src="images/login.png" width="30" height="30"> Atividades</h2>
+            <div class="date"><p>10 de maio</p></div>
+            <p>Bicicleta</p> <p>Tempo: 30min</p>
+            <p><b>Calorias gastas(kcal): 200kcal</b></p>
+            <p><a class="btn btn-secondary" href="#" role="button" onclick="location.href='atividades.html'"">Registrar atividade »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2><img class="img-icon" src="images/login5.png" width="30" height="30"> Pressão Arterial</h2>
+            <div class="date"><p>10 de maio</p></div>
+            <p>120/80mmHg</p>
+            <div class="result"><p><b>Pressão Normal</b></p></div>
+            <p><a class="btn btn-secondary" href="#" role="button"  onclick="location.href='pressao.html'">Registrar pressão »</a></p>
+          </div>
+            <div class="col-lg-4">
+                <h2><img class="img-icon" src="images/alimentacaoicon.png" width="30" height="30"> Alimentação</h2>
+                <div class="date"><p>10 de maio</p></div>
+                <p>Café da manhã: <li>Café</li>
+                  <li>Pão de queijo</li></p>
+                  <p>Almoço: <li>Arroz</li>
+                    <li>Frango</li>
+                    <li>Tomate</li></p>
+                    <p>Janta: <li>Omelete</li>
+                      <li>Suco de laranja</li></p>
+                      <p><b>Calorias ingeridas: 984kcal</b></p>
+                      <p><a class="btn btn-secondary" href="#" role="button" onclick="location.href='alimentação.html'">Registrar refeição »</a></p>
+              </div>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>© Company 2020-2021</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  
+
+</body>
